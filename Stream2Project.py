@@ -43,6 +43,13 @@ def donor_projects():
     MongoDB in JSON format.
     """
 
+    # # A constant that defines the record fields that we wish to retrieve.
+    # FIELDS = {
+    #     '_id': False, 'funding_status': False, 'school_state': True,
+    #     'resource_type': True, 'poverty_level': True,
+    #     'date_posted': False, 'total_donations': True
+    # }
+
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
         '_id': False, 'funding_status': True, 'school_state': True,
