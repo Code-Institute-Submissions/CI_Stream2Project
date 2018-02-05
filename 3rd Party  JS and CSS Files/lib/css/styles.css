@@ -1,0 +1,116 @@
+
+body {
+    background-color: #0000CD;
+  }
+
+@media screen and (min-width: 665px) {
+nav ul li {
+  display: inline-block;
+  height: 100px;
+  width: 150px;
+  font-size: 20px;
+  border-bottom: none;
+}
+}
+td, th {
+width: 5rem;
+height: 2rem;
+border: 1px solid #ccc;
+text-align: center;
+}
+th {
+background: red;
+border-color: white;
+}
+
+body {
+padding: 1rem;
+font-family: Mrs Sheppards;
+/*font-family: Roboto;*/
+/*font-family: shagade;*/
+}
+
+.tc1 {
+background-color: red;
+}
+nav ul li a {
+display: inline-block;
+text-decoration: none;
+font-family: Mrs Sheppards;
+/* font-family: roboto; */
+color: #fff;
+}
+nav ul {
+list-style: none;
+text-align: center;
+}
+nav ul li {
+font-size: 30px;
+border-bottom: 1px solid #444;
+padding: 10px 5px;
+
+background-color: red;
+}
+nav ul li:hover {
+background-color: #555;
+transition: all .3s ease;
+
+}
+nav ul li:active {
+background-color: white;
+
+}
+nav ul li:last-of-type {
+border-bottom: 0;
+}
+#form1{
+  display: flex;
+  flex-flow: column;
+
+  }
+  #container{
+     width: 550px;
+     margin: auto;
+
+  }
+
+  legend{
+     font-size: 30px;
+     background-color: #fff;
+     border-radius: 5px;
+     border: 1px solid #999;
+     padding: 4px 15px;
+  }
+
+  label.field{
+     display: block;
+     text-align: right;
+     width: 100px;
+     float: left;
+
+  }
+  input{
+     width: 200px;
+     border-radius: 5px;
+     padding: 6px 8px;
+  }
+  .field{
+     padding: 6px 8px;
+  }
+
+  #currency{
+      width: 220px;
+      border-radius: 5px;
+      padding: 6px 8px;
+  }
+
+  fieldset{
+     width: 450px;
+     border: 1px solid #999;
+     border-radius: 20px;
+     clear: both;
+     padding: 20px;
+     margin-bottom: 100px;
+     background-color:rgba(129, 187, 201,.2);
+
+  }
