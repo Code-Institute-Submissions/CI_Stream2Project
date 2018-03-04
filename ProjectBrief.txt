@@ -40,3 +40,10 @@ Additional Advice
     Don’t forget to use your mentor’s help. Your mentor can act as:
         Your client
         Your technical consultant
+
+welcome screen
+explain code with comments
+mockup inc pop-ups,text explaining what page does
+1.welcome screen,histogram,data filter
+2.platform,grouping,bubble chart,d3.com
+3.proposal,table

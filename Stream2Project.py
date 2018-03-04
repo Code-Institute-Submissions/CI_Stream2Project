@@ -24,6 +24,7 @@ def Platform():
     """
     A Flask view to serve the main dashboard page.
     """
+
     return render_template("Platform.html")
 
 
