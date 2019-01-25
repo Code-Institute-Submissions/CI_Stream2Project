@@ -3,7 +3,7 @@ Stream 2 Project
 Project URL:https://ci-stream2project-rick-harris.herokuapp.com/
 Source code:github:https://github.com/riqharris1/CI_Stream2Project
 
-Project name:Delaware governor election website
+Project name:Utah governor election website
 This website is aimed at the electorate of the US State of Delaware to inform them of the current lack of funding for education and how the candidate for governer proposes to improve it.
 
 Style of the website
