@@ -11,9 +11,9 @@ The style of the website is a dashboard style with graphs to make make the data 
   
 Brief
 This website consists of 3 pages:
-1 current poverty rate featuring a line graph and pie graph.
-2 platform
-3 plans for education
+Page 1 Current funding - Current funding of schools
+Page 2 platform - poverty rate featuring a line graph and pie graph.
+Page 3 Proposal - plans for education.
 
 Technologies used
 The site is built with HTML5 ,CSS3,Javascript(DC.js,D3.js,Crossfilter.js) and Bootstrap 
