@@ -1,8 +1,14 @@
 import os
+import json
+import csv
+
 from flask import Flask
 from flask import render_template
 from pymongo import MongoClient
-import json
+
+
+
+# import pandas as pd
 app = Flask(__name__)
 MONGO_URI='mongodb://admin:pass@ds255347.mlab.com:55347/heroku_lcz40x4w'
 MONGODB_HOST = 'ds255347.mlab.com'
@@ -26,7 +32,9 @@ def Platform():
     """
 
     return render_template("Platform.html")
-
+@app.route("/data")
+def data():
+    return jsonify(get_data())
 
 @app.route("/Proposals.html")
 def Proposals():
@@ -35,7 +43,17 @@ def Proposals():
     """
     return render_template("Proposals.html")
 
+''' @app.route("/")
+def chart():
+    df = pd.read_csv('flare').drop('Open', axis=1)
+    chart_data = df.to_dict(orient='records')
+    chart_data = json.dumps(chart_data, indent=2)
+    data = {'chart_data': chart_data}
+    return render_template("index.html", data=data)
 
+
+if __name__ == "__main__":
+    app.run(debug=True) '''
 
 @app.route("/donorsUS/projects")
 def donor_projects():

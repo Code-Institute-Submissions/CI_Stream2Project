@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Rick\Documents\Stream2Files\Stream2Project\activate"
+set "VIRTUAL_ENV=C:\Users\Rick\Documents\Stream2Project\activate"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

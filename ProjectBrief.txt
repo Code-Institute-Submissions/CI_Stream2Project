@@ -47,3 +47,10 @@ mockup inc pop-ups,text explaining what page does
 1.welcome screen,histogram,data filter
 2.platform,grouping,bubble chart,d3.com
 3.proposal,table
+
+improve readme.md 
+info:how to install,run app,requirements:flask pip,versions
+.gitignore:doesn't run vitualenv in github
+how to install flask 
+install python in virtualenv
+environment file

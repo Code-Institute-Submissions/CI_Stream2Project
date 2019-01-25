@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "${workspaceFolder}\\activate\\Scripts\\python.exe"
+    // "python.pythonPath": "${workspaceFolder}\\activate\\Scripts\\python.exe"
+    // "python.pythonPath": "C:\Users\Rick\Documents\Stream2Project"
+    // "python.pythonPath": "${workspaceFolder}\\activate\\Scripts\\python.exe"
+    "python.pythonPath": "${workspaceFolder}\\activate\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
