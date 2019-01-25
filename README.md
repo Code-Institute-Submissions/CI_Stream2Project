@@ -10,8 +10,8 @@ Style of the website
 The style of the website is a dashboard style with graphs to make make the data easy to understand.
   
 Brief
-This website consists of 3 pages.
-1 current poverty date featuring a line graph and pie graph.
+This website consists of 3 pages:
+1 current poverty rate featuring a line graph and pie graph.
 2 platform
 3 plans for education
 
